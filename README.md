@@ -1,9 +1,12 @@
-# hsa-12-redis
+![image](https://github.com/VitalikMatvieiev/hsa-12-redis/assets/77060767/0b4cf22a-5deb-4e36-b833-9c49419f8c0d)# hsa-12-redis
 **Used comands:** 
 
 redis-cli FLUSHDB
 redis-cli KEYS '*'
 redis-benchmark -t set -r 1000000 -n 10000
+
+**With epirations** 
+only noeviction doesn't work - Error from server: OOM command not allowed when used memory > 'maxmemory'.
 
 **No expirations for keys**
 
@@ -23,5 +26,8 @@ redis-benchmark -t set -r 1000000 -n 10000
 
 **volatile-ttl** - Error from server: OOM command not allowed when used memory > 'maxmemory'.
 
-![Uploading image.png…]()
+![image](https://github.com/VitalikMatvieiev/hsa-12-redis/assets/77060767/ec968432-5774-4ed8-aa86-389031532dd1)
+
+
+
 
