@@ -1,4 +1,4 @@
-![image](https://github.com/VitalikMatvieiev/hsa-12-redis/assets/77060767/0b4cf22a-5deb-4e36-b833-9c49419f8c0d)# hsa-12-redis
+# hsa-12-redis
 **Used comands:** 
 
 redis-cli FLUSHDB
