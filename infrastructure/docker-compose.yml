@@ -1,0 +1,14 @@
+services:
+  redis:  
+    image: redis
+    volumes:
+      - ./redis.conf:/usr/local/etc/redis/redis.conf
+    # command: --requirepass secret_redis
+    # environment:
+    #     - ADMIN_USER=admin
+    #     - ADMIN_PASS=admin
+    #     - REDIS_1_HOST=redis
+    #     - REDIS_1_PORT=6379
+    #     - REDIS_1_AUTH=9987
+    ports:
+      - "6379:6379"
